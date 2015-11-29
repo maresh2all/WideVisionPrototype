@@ -1,9 +1,9 @@
 # WideVision Prototype
-WideVision is supposed to be a pair of augmented reality glasse that will help visually impaired persons to see better. It's doing that by displaying a version of the real world that is more suitable for each disability and individual.
+WideVision is supposed to be a pair of augmented reality glasses that will help visually impaired persons to see better. It's doing that by displaying a version of the real world that is more suitable for each disability and individual.
 
 In this prototype we create a depth image in which close objects are bright and far away objects dark. This should allow people with certain kind of visual impairments to see shapes better.
 
-We use Microsoft's Kinect as a camera and we process the image and serve it as HTML on a mobile phone which is inserted in a VR headset.
+We use Microsoft's Kinect as a camera to capture the depth image. Each frame is processed and encoded as a Base64 image and  serve it through WebSockets. The stream is loaded as a HTML page on a mobile phone which is inserted in a VR headset. Simple as that.
 
 This is a prototype developed for the Startup Weekend organized by [FED Network] in Copenhagen.
 
