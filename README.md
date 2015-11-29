@@ -12,6 +12,7 @@ Here is a short [video] when we tested it with the user and [this] is what the u
 ## Devices
 - Kinect model 1414
 - Immerse VR glasses (any kind of Google Cardboard works as well)
+
 ## Setup
 Install [Processing] version 2.21 .
 
